@@ -92,3 +92,21 @@ button:hover{
   padding:20px;
   list-style-type:none;
 }
+
+@media(max-width:615px){
+    
+  .main-body{
+    height:auto;
+    width: 330px;
+  }
+  
+  .top-part{
+    margin:0px;
+  }
+  
+  .bottom-left, .bottom-right{
+    display:block;
+    width:100%;
+  }
+  
+}
